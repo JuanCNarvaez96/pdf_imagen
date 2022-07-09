@@ -1,10 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
 using UglyToad.PdfPig;
 using UglyToad.PdfPig.Content;
 using UglyToad.PdfPig.XObjects;
 
-Console.WriteLine("Hello, World!");
-string origen = @"C:\Lorena.pdf";
+
+string origen = @"C:\laura.pdf";
 string destino = @"C:\ext";
 
 
@@ -32,6 +31,7 @@ try
             }
         }
     }
+    Console.WriteLine("Imagenes generadas");
 }
 catch (Exception)
 {
